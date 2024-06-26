@@ -1,0 +1,243 @@
+/* Common.css */
+
+/* Navigation Bar */
+.nav-bar {
+  background-color: white; /* White background */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.nav-list li {
+  float: left;
+}
+
+.nav-list li a {
+  display: block;
+  color: black; /* Black text color */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-list li a:hover {
+  background-color: #f0f0f0;
+  color: #0066CC; /* Blue accent color */
+}
+
+.nav-list li a svg {
+  margin-right: 8px;
+}
+
+/* Page Container */
+.page-container {
+  text-align: center;
+  padding: 20px;
+  background: white; /* Change background to white */
+  color: #333; /* Change text color to dark grey */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.page-container h1, .page-container h2 {
+  color: #333; /* Change heading text color to dark grey */
+}
+
+.page-container p, .page-container a {
+  color: #0066CC; /* Accent color for links */
+}
+
+.page-container a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.page-container a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+.section {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f8f9fa; /* Light grey background */
+  color: #333; /* Dark grey text color */
+}
+
+.section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.section a {
+  color: #0066CC; /* Accent color for links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section a:hover {
+  text-decoration: underline;
+}
+
+/* Iframe Container */
+.iframe-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden; /* Ensure the iframe content doesn't overflow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard Container */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for the entire page */
+  color: #333; /* Dark text color for readability */
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.dashboard-header p {
+  font-size: 1.2em;
+  max-width: 800px;
+}
+
+.dashboard-content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.sidebar {
+  flex: 1;
+  background: #ffffff;
+  padding: 20px;
+  margin-right: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: #0066cc; /* Accent color for links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.footer-section p, .footer-section a {
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.partner-logo {
+  width: 50px;
+  height: auto;
+  margin: 5px;
+}
